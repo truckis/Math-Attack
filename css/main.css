@@ -1,0 +1,97 @@
+
+
+/*Nav Bar*/
+.nav-link{
+	font-family: 'Dosis', sans-serif;
+	font-size: 27px;
+	letter-spacing: 2px;
+	border-radius: 13px;
+}
+
+#score{
+	font-size: 40px;
+}
+
+.navbar{
+	margin-bottom: 10px;
+}
+
+.nav-item {
+	border-radius: 7px;
+}
+
+.bg-green{
+	background-color: #1bff1b;
+}
+
+nav ul li a {
+	color: #fff;
+}
+
+body {
+	background-color: #1bffff;
+	font-family: 'Dosis', sans-serif;
+}
+
+.go-bar {
+	height: 75px;
+	width: 100%;
+	text-align: center;
+}
+
+.btn-go {
+	border: 5px solid #1bff1b;
+	padding: 10px 30px;
+	font-size: 22px;
+	color: #002f2f;
+	letter-spacing: 2px;
+	transition: all .3s ease;
+}
+
+.btn-go:hover {
+	background-color: #1bff1b;
+	border-top: 5px solid #fff;
+	color: #fff;
+}
+
+.btn-reset {
+	background-color: #fff;
+	transition: all .3s ease;
+}
+
+.btn-reset:hover {
+	border: 5px solid white;
+	background-color: transparent;
+}
+
+
+.num-block {
+	height: 20vh;
+	width: 9vw;
+	background-color: #fff;
+	text-align: center;
+	padding-top: 4vh;
+	font-size: 60px;
+	border-radius: 5px;
+	outline: none;
+}
+
+.bg-success {
+	transition: all .01s ease-out;
+}
+
+.active, .active1 {
+	background-color: yellow;
+}
+
+
+#answer{
+	width: 200px;
+}
+
+
+
+
+
+
+

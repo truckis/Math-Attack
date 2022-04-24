@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Game</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Dosis:700" rel="stylesheet">
+
+
+  </head>
+  <body id="body">
+    <nav class="navbar navbar-expand-lg navbar-light bg-green" id="navbar">
+
+      <a class="navbar-brand mr-5" href="#">Math Attack</a>
+  
+      <!-- For Mobile -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <!-- Navbar content -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto" id="dificulty">
+          <li class="nav-item active">
+            <a class="nav-link" href="#" id="easy" >Easy<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="medium">Medium</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="hard">Hard</a>
+          </li>
+        </ul>
+        
+        <ul class="navbar-nav mr-5" id="math-sign">
+          <li class="nav-item mx-3 nav-link active1">
+              Pick One
+            </li>
+           <li class="nav-item mx-3">
+              <a class="nav-link" href="#" id="addition"><i class="fas fa-plus fa-2x"></i></a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#" id="subtraction"><i class="fas fa-minus fa-2x"></i></a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#" id="multiplication"><i class="fas fa-times fa-2x"></i></a>
+            </li>
+            <!-- <li class="nav-item mx-3">
+              <a class="nav-link" href="#" id="division"><i class="fas fa-divide fa-2x"></i></a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#" id="all">All</a>
+            </li> -->
+        </ul>
+  
+      </div>
+    </nav>
+       
+	
+	   <!-- Go and Reset Btns -->
+	<div class="go-bar">
+		<h3 class="float-left mt-2 ml-2 text-danger mt-3" id="score">Score:</h3>
+		<button type="button" class="btn btn-go" id="start">GO</button>
+		<button type="button" class="btn btn-reset" id="reset">Reset</button>
+	</div>
+
+
+     <!-- Timer -->
+     <!-- <div class="timer-box">
+      <h3 class="float-left mt-2 ml-2 text-danger mt-3" id="time">Time:</h3>
+    </div> -->
+
+
+	<!-- Math Problem -->
+   <div class="container">
+   	<div class="row justify-content-center mt-5">
+   		<h1 id="number1" class="d-inline-block num-block m-3"></h1>
+   		<h1 class="d-inline-block mx-3 display-1" id="display-sign"> + </h1>
+    	<h2 class="d-inline-block num-block m-3" id="number2"></h2>
+    	<h1 class="d-inline-block mx-3 display-1"> = </h1>
+    	<input type="" name="" id="answer" class="d-inline-block num-block m-3 pb-3">
+   	</div>
+   </div>
+    
+
+
+
+  	<!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- JavaScript -->
+  <script src="src/main.js"></script>
+  </body>
+</html>
